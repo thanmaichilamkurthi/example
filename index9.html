@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>DOM</h3>
+    <p>Java script DOM Illustrations</p>
+    <div style="height:100px ;width:100px; background-color: aquamarine; text-align: center;" onmouseover="fun1(this)"
+        id="one">Hello!</div>
+    <h5>Example 2</h5>
+    input1: <input type="text" name="" id="two"> <br><br>
+    input2: <input type="text" name="" id="three">
+    <p id="two"></p>
+    <button id="btn">Enter</button>
+    <script>
+        function fun1(ob){
+            document.getElementById("one")
+        }
+        let a = 2;
+        let b = 3;
+        document.getElementById("btn").addEventListener("click", function  
+        functionone(a, b){
+            let c = a+b;
+            document.getElementById("two").innerHTML = c;
+        })
+    </script>
+</body>
+
+</html>

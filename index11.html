@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name = "form" onsubmit="return validate();" >
+        <br>
+        <label for="">Name</label>&emsp;&emsp;&nbsp;&nbsp;
+        <input type="text" name="name">(Only Alphabets and Max length 6) <br> <br>
+        <label for="">Password</label> &emsp;
+        <input type="password" name="password">(Max length 6) <br> <br>
+        <label for="">E-mail</label> &emsp;&emsp;
+        <input type="email" name="phn" id=""> <br> <br>
+        <label for="">phn</label>&emsp;&emsp;&emsp;&nbsp;
+        <input type="text" name="" id="phn">(only 10 digits) <br> <br>
+        <input type="button" value="submit">
+    </form>
+
+    <script>
+        function validate(){
+            let x = document.form.name.value;
+            if(x==""){
+                alert("write properly");
+                return false;
+            }
+        }
+    </script>
+</body>
+</body>
+</html>
